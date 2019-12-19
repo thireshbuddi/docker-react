@@ -1,5 +1,5 @@
 FROM node:alpine
-
+//app is the working dir
 WORKDIR '/app'
 
 COPY package.json .
